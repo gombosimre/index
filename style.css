@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hatter {
+    background-image: url('kepek/hatter.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(34, 139, 34, 0.9);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+img.balra {
+    float: left;
+    margin: 0 15px 15px 0;
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
+
+img.jobbra {
+    float: right;
+    margin: 0 0 15px 15px;
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #f0fff0;
+}
+
+table, th, td {
+    border: 2px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
